@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".delete_account">
+
+    <TextView
+        android:fontFamily="@font/new_rocker"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="souvenir"
+
+        android:textColor="#ffffff"
+        android:textSize="60dp"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edit_text2"
+        android:hint="Write Confirm msg to delete"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="@dimen/pad_10dp"
+        android:paddingVertical="@dimen/pad_10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/bg_login"
+        app:layout_constraintBottom_toTopOf="@+id/btn_reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+
+    <Button
+        android:id="@+id/deactivebtn"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/eagle_lake"
+        android:background="@drawable/button_shape"
+        android:ems="9"
+        android:text="Delete Account"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

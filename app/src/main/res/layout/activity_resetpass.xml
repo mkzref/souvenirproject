@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dda162"
+    android:orientation="vertical"
+
+    tools:context=".ResetpassActivity">
+
+    <TextView
+        android:fontFamily="@font/new_rocker"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="souvenir"
+
+        android:textColor="#ffffff"
+        android:textSize="60dp"/>
+
+    <EditText
+        android:id="@+id/sendemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_30dp"
+        android:layout_marginBottom="-70dp"
+        android:background="@drawable/rounded_edit_text2"
+        android:hint="Your Email"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="@dimen/pad_10dp"
+        android:paddingVertical="@dimen/pad_10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/bg_login"
+        app:layout_constraintBottom_toTopOf="@+id/btn_reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_shape"
+        android:ems="9"
+        android:fontFamily="@font/eagle_lake"
+        android:text="Reset Password"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="By clicking Reset,you will receive email to reset password"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone" />
+
+</LinearLayout>

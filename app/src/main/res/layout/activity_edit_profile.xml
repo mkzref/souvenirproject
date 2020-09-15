@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".editProfile">
+
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+        android:fontFamily="@font/eagle_lake"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+            app:title=" Edit Profile "
+            app:titleTextColor="@color/colorPrimary"
+            tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="585dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="54dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Editemial"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/editusername"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:hint=" User Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/editphone"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:hint=" Phone Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password : "
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/pad_15dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="18dp"
+            ></TextView>
+        <EditText
+            android:id="@+id/oldpass"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="-5dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint=" Old Password"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+        <EditText
+            android:id="@+id/editpass"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="-5dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint=" New Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="234dp">
+
+            <Button
+                android:id="@+id/Edit"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="81dp"
+                android:layout_marginRight="81dp"
+
+                android:layout_marginBottom="153dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/eagle_lake"
+                android:text="@string/save"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Categories">
+
+            <item
+                android:id="@+id/Paintings"
+                android:icon="@drawable/ic_color_lens_black_24dp"
+                android:title="Paintings" />
+            <item
+                android:id="@+id/Jewelry"
+                android:icon="@drawable/j_foreground"
+                android:title="Jewelry" />
+            <item
+                android:id="@+id/Books"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="Books" />
+            <item
+                android:id="@+id/Furniture"
+                android:icon="@drawable/f_foreground"
+                android:title="Furniture" />
+
+            <item
+                android:id="@+id/logout"
+            android:icon="@drawable/ic_close_black_24dp"
+            android:title="logout" />
+            <item
+                android:id="@+id/deactiveitem"
+                android:icon="@drawable/deactivation2_foreground"
+                android:title="Delete account" />
+
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/help2_foreground"
+                android:title="Help" />
+        </item>
+
+
+
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+</menu>

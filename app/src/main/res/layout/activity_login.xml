@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#dda162"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+<TextView
+android:fontFamily="@font/new_rocker"
+android:layout_marginTop="-80dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="souvenir"
+
+    android:textColor="#ffffff"
+    android:textSize="60dp"/>
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="vertical">
+        <EditText
+            android:paddingTop="20dp"
+            android:id="@+id/email"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="21dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/hideshow"
+                android:layout_width="70dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dip"
+                app:srcCompat="@drawable/hideshow_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+        </LinearLayout>
+
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="243dp"
+            android:fontFamily="@font/eagle_lake"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:text="Login"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/fingerprint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:onClick="fingerprint"
+            android:gravity="center"
+            android:text="  By Fingerprint "
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:onClick="signUp"
+            android:gravity="center"
+            android:text="If you don't have account JOIN NOW"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:id="@+id/forgetpass"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:onClick="resetpass"
+            android:text="Forgot your password?"
+            android:textColor="@color/colorWhite" />
+
+        <!-- Link to Login Screen -->
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

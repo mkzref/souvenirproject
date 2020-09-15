@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addCategory"
+        android:title="Add new category" />
+    <item
+        android:id="@+id/addEnglishQuestion"
+        android:title="Add new english question" />
+    <item
+        android:id="@+id/addArabicQuestion"
+        android:title="Add new arabic question" />
+
+
+
+    <item
+        android:id="@+id/viewReports"
+        android:title="View Users' Reports" />
+    <item
+        android:id="@+id/viewSuggestedCategory"
+        android:title="View Suggested Categories" />
+
+
+</menu>
