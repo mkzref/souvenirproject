@@ -45,6 +45,43 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:76968507498:android:27e16976994ea5b9687213",
+        "android_client_info": {
+          "package_name": "com.example.souvenir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76968507498-qb656qivgnr4433i0aude2865ug7mfvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.com.example.souvenir",
+            "certificate_hash": "e5b4c4b1de438abcf4c45bbc069ac3a64af0aed3"
+          }
+        },
+        {
+          "client_id": "76968507498-v3appuisl374fk27vl8q5nseg1usaaoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy1IPyQZ7po_IEC6k-KJJeZSHgPLDper8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76968507498-v3appuisl374fk27vl8q5nseg1usaaoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:76968507498:android:deea26e6a81b874c687213",
         "android_client_info": {
           "package_name": "com.example.detectface"
@@ -114,43 +151,6 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.nostalgic",
-            "certificate_hash": "e5b4c4b1de438abcf4c45bbc069ac3a64af0aed3"
-          }
-        },
-        {
-          "client_id": "76968507498-v3appuisl374fk27vl8q5nseg1usaaoa.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCy1IPyQZ7po_IEC6k-KJJeZSHgPLDper8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "76968507498-v3appuisl374fk27vl8q5nseg1usaaoa.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:76968507498:android:44808ac372df7da6687213",
-        "android_client_info": {
-          "package_name": "com.example.souvenir"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "76968507498-3u5j9elgidf3jihscmr5gbjtngqfnvu6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.souvenir",
             "certificate_hash": "e5b4c4b1de438abcf4c45bbc069ac3a64af0aed3"
           }
         },

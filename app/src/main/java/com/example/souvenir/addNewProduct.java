@@ -218,8 +218,13 @@ public class addNewProduct extends AppCompatActivity {
             productMap.put("category", categoryName);
             productMap.put("pName", pName.toLowerCase());
             productMap.put("pDescription", pDescribtion);
-            if(categoryName.equals("Donations"))
-                productMap.put("pPrice", "For Free");
+            if((categoryName.equals("Donations")))
+            {
+                productMap.put("pPrice", "For Free");}
+
+            else if ((categoryName.equals("Art Hobbies"))) {
+                productMap.put("pPrice", " ");
+            }
             else
                 productMap.put("pPrice", pPrice);
             productMap.put("image", downloadImageUrl);
