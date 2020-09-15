@@ -134,8 +134,10 @@ boolean empty=true;
                         //   holder.txtProductDescription.setText(model.getDescription());
                         Picasso.get().load(model.getImage()).into(holder.imageView);
 
-                        if(model.getCategory().equals("Donations"))
-                        holder.txtProductPrice.setText( model.getPprice() );
+                        if(model.getCategory().equals("Donations")){
+                        holder.txtProductPrice.setText( model.getPprice() );}
+                        else if(model.getCategory().equals("Art Hobbies"))
+                            holder.txtProductPrice.setText( model.getPprice() );
                         else
                             holder.txtProductPrice.setText("Price  " +"$"+ model.getPprice());
                         holder.itemView.setOnClickListener(new View.OnClickListener() {

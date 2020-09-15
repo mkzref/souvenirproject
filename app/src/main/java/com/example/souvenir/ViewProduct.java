@@ -238,6 +238,8 @@ Zoomin.setOnClickListener(new View.OnClickListener() {
                     Picasso.get().load(model.getImage()).into(image);
                     if(model.getCategory().equals("Donations"))
                         price.setText(model.getPprice());
+                    else  if(model.getCategory().equals("Art Hobbies"))
+                        price.setText(model.getPprice());
                     else
                         price.setText("Price  " + " $ " +model.getPprice()  );
                     category.setText("Category: " + model.getCategory());

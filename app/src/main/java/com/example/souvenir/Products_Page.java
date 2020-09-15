@@ -123,6 +123,8 @@ category= getIntent().getStringExtra("Category");
                         Picasso.get().load(model.getImage()).into(holder.imageView);
                         if(model.getCategory().equals("Donations"))
                             holder.txtProductPrice.setText(model.getPprice());
+                        else if (model.getCategory().equals("Art Hobbies"))
+                            holder.txtProductPrice.setText(model.getPprice());
                         else
                         holder.txtProductPrice.setText("Price " + "$"+model.getPprice() );
                         if (firebaseUser != null && firebaseUser.getUid().equals("8CxyfESWn8XgpkqBlpBXLhbBVPl2")) {
