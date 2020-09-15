@@ -13,13 +13,21 @@ It helps the buyer to reach these unique pieces in an easier way also it allows 
 **Requirements**
 
 --The user shall be able to search for products
+
 --The user shall be able to contact other users 
+
 -- The user shall be able to add products in his/her cart.
+
 --The user shall be able to remove products from his/her cart.
+
 --The user shall be able to track the seller location to get products by using tracking page.
+
 -- The user shall be able to add products and their information 
+
 -- by publishing them on his/her profile.
+
 --The user shall be able to delete products from his/her profile.
+
 --The user shall be able to determine his preferred locations by GPS and adding them to his/her location information.
 
 
