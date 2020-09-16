@@ -1,10 +1,21 @@
 # souvenirproject
 souvenirproject
 
+**Marwa Hatamleh**
+*************************************************************************************************************************************************
 
-Marwa Hatamleh
+
+**Imp Note : If you want to gain access to the admin features, please enter these email and password :
+
+**Email : marwahatamleh@gmail.com
+**pass : marwaamjed
+
+
+
+
 **********************************
-**Name :**
+**********************************
+**Name Project  :**
 Souvenir
 
 *********************************
