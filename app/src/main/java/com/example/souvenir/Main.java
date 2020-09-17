@@ -565,8 +565,8 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
 
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "https://drive.google.com/file/d/1XHptqbcnv1XQrUeQQZgQsea9D10u1z_Q/view?usp=sharing";
-                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Nostalgia Apk");
+                String shareBody = " ";
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Souvenir Apk");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
