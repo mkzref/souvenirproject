@@ -1,8 +1,21 @@
 # souvenirproject
 souvenirproject
 
+**Marwa Hatamleh**
+*************************************************************************************************************************************************
+
+
+**Imp Note : If you want to gain access to the admin features, please enter these email and password :
+
+**Email : marwahatamleh@gmail.com
+**pass : marwaamjed
+
+
+
+
 **********************************
-**Name :**
+**********************************
+**Name Project  :**
 Souvenir
 
 *********************************
@@ -33,9 +46,13 @@ It helps the buyer to reach these unique pieces in an easier way also it allows 
 
 ********************************
 **Installation :**
+**LINK:** if you want use application click on it .
 
+https://drive.google.com/file/d/1OLQ1vV4HIuQ4pDdSZ3p16k5gaacqsPOl/view?usp=sharing
 
-
+*****************************
+**Demo Link :-**
+https://drive.google.com/file/d/1kTefUGRX6A5K0BFe8LGyL71xs2dA-YeD/view
 
 *****************************
 **Support :**
